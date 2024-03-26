@@ -22,13 +22,12 @@
             </li>
         </ul>
     </div>
-
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="inner-content paroller text-center">
                     <div class="title">
-                        <h2>Our Portfolio</h2>
+                        <h2>Portfolio Details</h2>
                     </div>
                     <div class="breadcrumb-menu">
                         <ul>
@@ -40,102 +39,93 @@
         </div>
     </div>
 </section>
-<section class="portfolio-page-two">
+<section class="portfolio-details-area">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/disonsconstruction_project.png') }}" alt="disonsconstruction image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.disonsconstruction') }}"><span class="flaticon-right-arrow-1"></span></a>
+            <div class="col-xl-12">
+                <div class="portfolio-details_content">
+
+                    <div class="portfolio-details_image-box clearfix">
+                        <div class="portfolio-main-image-box">
+                            <ul class="bxslider">
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/disonsconstruction_project.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/disonsconstruction_project_sub1.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/disonsconstruction_project_sub2.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </div>s
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.disonsconstruction') }}">Disons Constructions</a></h3>
+                        <div class="slider-pager portfolio-subimg">
+                            <ul class="thumb-box">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#">
+                                        <div class="thumb-image">
+                                            <img src="{{ asset('images/disonsconstruction_project.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#">
+                                        <div class="thumb-image">
+                                            <img src="{{ asset('images/disonsconstruction_project_sub1.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#">
+                                        <div class="thumb-image">
+                                            <img width="250px" src="{{ asset('images/disonsconstruction_project_sub2.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="portfolio-details-text-box">
+                        <div class="top-title">
+                            <h5>Construction</h5>
+                            <h2>Disons Construction</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="portfolio-details-text one">
+                                    <p>The company was established way back in 1984 as a family business and obtained ICTAD Membership - since.1991-01-08 and National Construction Contractors Association(NCCA) in Sri Lanka eventually. Current grading is C6/M5 since 2010. Primary business was with the Ministry of Education and Provincial Ministry of education (Western Province) and other governmental institutions. We have done works for Private Sector clients also. We have won several awards for Construction Excellence and Merit from (NCCA-SL) for a quality finished private personalized House category and Two Storied School Laboratory building in Western Province.</p>
+                                    <br/>
+                                    <p>1. Nature of Organization- Sole Proprietor.</p>
+                                    <p>2. BusinessRegistration No: W- 11826- Colombo.</p>
+                                    <p>3. Field of specialty - Construction of Buildings covering Civil works, Electrical wiring, Plumbing and Mechanical works. Taking out of Quantities, preparation of BOQ's etc: Maintenance works for buildings. Undertake Design and Construction of Buildings.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/dragonsof_project.png') }}" alt="dragonsof image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.dragonsof') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.dragonsof') }}">Dragonsof Solutions</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/econsulate_project.png') }}" alt="econsulate image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.econsulate') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.econsulate') }}">Econsulate</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/hcm_project.png') }}" alt="hcm image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.hcm') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.hcm') }}">HCM Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/estai_project.png') }}" alt="estai image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.estai') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.estai') }}">Estai Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/tropi_project.png') }}" alt="tropi image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.tropi') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.tropi') }}">Tropi Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="btns-box loadmore-portfolio-button text-center">
-            <a class="btn-one" href="portfolio-1.html">
-                <div class="border_line"><img src="{{ asset('images/button-border.png') }}" alt="portfolio image"></div>
-                <div class="left_round"></div>
-                <div class="right_round"></div>
-                <span class="txt">View Load More<i class="flaticon-plus-1 plusicon"></i></span>
-            </a>
         </div>
     </div>
 </section>
 <section class="testimonial-style1-area">
     <div class="container">
         <div class="testimonial-style1_title">
-            <h2>What Our Clint <span>Saying?</span></h2>
+            <h2>What Our Client <span>Saying?</span></h2>
         </div>
         <div class="row">
             <div class="col-xl-12">
@@ -152,7 +142,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>
@@ -170,9 +160,9 @@
                                 <div class="text">
                                     <h3>Donec ac quam non elit hendrerit placerat. Pellentesque a est id diam lacinia convallis. Etiam non quam sit amet odio pharetra lacinia. Donec purus enim, ornare ac imperdiet hendrerit placerat. Pellentesque a est.</h3>
                                 </div>
-                                <div class="v-info">
+                                <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial information image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>
@@ -192,7 +182,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>

@@ -28,7 +28,7 @@
             <div class="col-xl-12">
                 <div class="inner-content paroller text-center">
                     <div class="title">
-                        <h2>Our Portfolio</h2>
+                        <h2>Portfolio Details</h2>
                     </div>
                     <div class="breadcrumb-menu">
                         <ul>
@@ -40,102 +40,93 @@
         </div>
     </div>
 </section>
-<section class="portfolio-page-two">
+<section class="portfolio-details-area">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/disonsconstruction_project.png') }}" alt="disonsconstruction image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.disonsconstruction') }}"><span class="flaticon-right-arrow-1"></span></a>
+            <div class="col-xl-12">
+                <div class="portfolio-details_content">
+
+                    <div class="portfolio-details_image-box clearfix">
+                        <div class="portfolio-main-image-box">
+                            <ul class="bxslider">
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/tropi_project.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/tropi_project_sub1.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="{{ asset('images/tropi_project_sub2.png') }}" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </div>s
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.disonsconstruction') }}">Disons Constructions</a></h3>
+                        <div class="slider-pager portfolio-subimg">
+                            <ul class="thumb-box">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#">
+                                        <div class="thumb-image">
+                                            <img src="{{ asset('images/tropi_project.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#">
+                                        <div class="thumb-image">
+                                            <img src="{{ asset('images/tropi_project_sub1.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#">
+                                        <div class="thumb-image">
+                                            <img width="250px" src="{{ asset('images/tropi_project_sub2.png') }}" alt="Awesome Thumb Image">
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="portfolio-details-text-box">
+                        <div class="top-title">
+                            <h5>Traveling</h5>
+                            <h2>Tropi Culture</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="portfolio-details-text one">
+                                    <p>For our team at Tropiculture, life every day is but a leisurely adventure. We feel our time doesn’t pass from hour to hour but from moment to moment. The inspiration and passion for our work are transitioned to us through what surrounds us. Our lives are represented and made whole by the island’s deep-seated heritage, the glittering tapestry of culture, the salty tropical seas and tidal waves, the lush greenery that sustains us all living things and year-round sun-kissed summers blessing us with plentiful crops.</p>
+                                    <br/>
+                                    <p>We are a legion of visionaries, explorers, inventors and romanticists upholding the flame of curiosity and wonderment embodied through the experiences we create. Our trips are a concoction of deliberate planning flavoured by the island’s valued ingredients: history, nature and culture. Most importantly, our travel plans are knitted to support the core idealogy and the vocabulary we live and breath by - that is to be authentic, imaginative, novel and empathetic.</p>
+                                    <br/>
+                                    <p>We are driven by an ongoing passion that stems from curiosity and a need for originality. While we love learning from each other's experiences, we thrive the most when we are following our instincts. As our travel plans have an unprincipled approach in general, our trips vary from conventional trips to most quirky and adventurous. We take pride in the work that we do as it embodies an unparalleled experience that highlights the island's valued characteristics and individuality - as seen through our physical working space.</p>
+                                    <br/>
+                                    <p>The inspiration for our unique brand is coined from two words - Tropic and culture. As our island nation is abundant by both, we are not only appreciative of its opulence, but it is most elementary for the trips that we design. A land gleaming of life, warmth and diversity, Sri Lanka is a place where we islanders draw inspiration and unearthly energies from.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/dragonsof_project.png') }}" alt="dragonsof image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.dragonsof') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.dragonsof') }}">Dragonsof Solutions</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/econsulate_project.png') }}" alt="econsulate image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.econsulate') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.econsulate') }}">Econsulate</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/hcm_project.png') }}" alt="hcm image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.hcm') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.hcm') }}">HCM Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/estai_project.png') }}" alt="estai image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.estai') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.estai') }}">Estai Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="single-portfolio-style1 single-portfolio-style2">
-                    <div class="img-holder">
-                        <img src="{{ asset('images/tropi_project.png') }}" alt="tropi image">
-                        <div class="overlay-icon">
-                            <a href="{{ route('ourPortfolio.tropi') }}"><span class="flaticon-right-arrow-1"></span></a>
-                        </div>
-                    </div>
-                    <div class="title-holder">
-                        <h3><a href="{{ route('ourPortfolio.tropi') }}">Tropi Pvt Ltd</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="btns-box loadmore-portfolio-button text-center">
-            <a class="btn-one" href="portfolio-1.html">
-                <div class="border_line"><img src="{{ asset('images/button-border.png') }}" alt="portfolio image"></div>
-                <div class="left_round"></div>
-                <div class="right_round"></div>
-                <span class="txt">View Load More<i class="flaticon-plus-1 plusicon"></i></span>
-            </a>
         </div>
     </div>
 </section>
 <section class="testimonial-style1-area">
     <div class="container">
         <div class="testimonial-style1_title">
-            <h2>What Our Clint <span>Saying?</span></h2>
+            <h2>What Our Client <span>Saying?</span></h2>
         </div>
         <div class="row">
             <div class="col-xl-12">
@@ -152,7 +143,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>
@@ -170,9 +161,9 @@
                                 <div class="text">
                                     <h3>Donec ac quam non elit hendrerit placerat. Pellentesque a est id diam lacinia convallis. Etiam non quam sit amet odio pharetra lacinia. Donec purus enim, ornare ac imperdiet hendrerit placerat. Pellentesque a est.</h3>
                                 </div>
-                                <div class="v-info">
+                                <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial information image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>
@@ -192,7 +183,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-box">
-                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="testimonial image">
+                                        <img src="{{ asset('images/testimonial-v1-1.jpg') }}" alt="">
                                     </div>
                                     <div class="inner-title">
                                         <h4>Salena Smith</h4>
