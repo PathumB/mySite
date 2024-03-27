@@ -51,10 +51,10 @@
                                     <li class="{{ request()->routeIs('about-us.index') ? 'current' : '' }}">
                                         <a href="{{ route('about-us.index') }}">About</a>
                                     </li>
-                                    <li class="{{ request()->routeIs('our-services*') ? 'current' : '' }}">
+                                    <li class="{{ request()->is('our-services*') ? 'current' : '' }}">
                                         <a href="{{ route('our-services.index') }}">Services</a>
                                     </li>
-                                    <li class="{{ request()->routeIs('our-portfolio.*') ? 'current' : '' }}">
+                                    <li class="{{ request()->is('our-portfolio*') ? 'current' : '' }}">
                                         <a href="{{ route('our-portfolio.index') }}">Portfolio</a>
                                     </li>
                                     <li class="{{ request()->routeIs('contact-us.index') ? 'current' : '' }}">
